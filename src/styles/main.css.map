@@ -1,0 +1,25 @@
+{
+    "version": 3,
+    "mappings": "AOAA,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "main.scss",
+        "0-helpers/_0-helpers.scss",
+        "0-helpers/_variables.scss",
+        "0-helpers/_mixins.scss",
+        "0-helpers/_functions.scss",
+        "1-plugins/_1-plugins.scss",
+        "2-base/_2-base.scss",
+        "2-base/_global.scss",
+        "2-base/_reset.scss",
+        "2-base/_typography.scss",
+        "3-layout/_3-layout.scss",
+        "3-layout/_footer.scss",
+        "3-layout/_navigation.scss",
+        "3-layout/_siteHeader.scss",
+        "3-layout/_siteMainContent.scss",
+        "4-modules/_4-modules.scss",
+        "5-templates/_5-templates.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

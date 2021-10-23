@@ -1,0 +1,40 @@
+.hero{
+    min-height: 620px;
+    background: #f6f6f6;
+    display: flex;
+}
+
+.hero-wrapper {
+    padding: 110px 100px;
+    width: 60%;
+}
+    h1 {
+        font-family: $font-h1;
+        font-weight: 800;
+        font-size: 40px;
+        margin-bottom: 32px;
+    }
+
+    .track-color{
+        color: $purple;
+    }
+
+    .hero-text {
+        font-family: $font-p;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .hero-button {
+        padding: 22px;
+        width: 164px;
+        font-size: 15px;
+        color: $purple;
+        font-family: $font-nav;
+        border: solid $purple;
+        border-radius: 50px;
+    }
+
+.hero-pic {
+    width: 40%;
+}

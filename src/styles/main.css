@@ -1,4 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Merriweather+Sans:wght@700;800&display=swap");
 html {
   font-size: 100%;
+}
+
+nav {
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  margin: 20px 20px;
+}
+
+.nav-logo {
+  width: 25%;
+}
+
+.nav-ul {
+  min-width: 50%;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-li {
+  display: inline-block;
+  font-family: "Merriweather Sans", sans-serif;
+  margin: auto;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #161616;
+}
+
+.actions {
+  width: 25%;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cart, .user {
+  display: inline-block;
+  margin: auto;
+}
+
+.hero {
+  min-height: 620px;
+  background: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-wrapper {
+  padding: 110px 100px;
+  width: 60%;
+}
+
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+.track-color {
+  color: #64003C;
+}
+
+.hero-text {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.hero-button {
+  padding: 22px;
+  width: 164px;
+  font-size: 15px;
+  color: #64003C;
+  font-family: "Merriweather Sans", sans-serif;
+  border: solid #64003C;
+  border-radius: 50px;
+}
+
+.hero-pic {
+  width: 40%;
 }
 /*# sourceMappingURL=main.css.map */

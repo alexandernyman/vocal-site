@@ -1,1 +1,46 @@
+nav {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px 20px;
+}
 
+.nav-logo{
+    width: 25%;
+}
+
+
+.nav-ul{
+    min-width: 50%;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-li{
+    display: inline-block;
+    font-family: $font-nav;
+    margin: auto;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: $nav-link
+}
+
+.actions {
+    width: 25%;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+    .cart, .user{
+        display: inline-block;
+        margin: auto;
+    }

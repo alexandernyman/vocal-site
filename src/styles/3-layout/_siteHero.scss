@@ -1,5 +1,4 @@
 .hero{
-    min-height: 620px;
     background: #f6f6f6;
     display: flex;
 }
@@ -33,7 +32,13 @@
         font-family: $font-nav;
         border: solid $purple;
         border-radius: 50px;
+        cursor: pointer;
+        transition: 0.20s ease-out;
     }
+        .hero-button:hover{
+            background-color: $purple;
+            color: #f6f6f6;
+        }
 
 .hero-pic {
     width: 40%;

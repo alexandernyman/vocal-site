@@ -21,7 +21,6 @@ nav {
 
 .nav-ul {
   min-width: 50%;
-  text-align: center;
   padding: 0;
   list-style: none;
   display: -webkit-box;
@@ -30,6 +29,9 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav-li {
@@ -62,7 +64,6 @@ nav {
 }
 
 .hero {
-  min-height: 620px;
   background: #f6f6f6;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99,9 +100,102 @@ h1 {
   font-family: "Merriweather Sans", sans-serif;
   border: solid #64003C;
   border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: 0.20s ease-out;
+  transition: 0.20s ease-out;
+}
+
+.hero-button:hover {
+  background-color: #64003C;
+  color: #f6f6f6;
 }
 
 .hero-pic {
   width: 40%;
+}
+
+.filter-hp {
+  padding: 80px 100px;
+}
+
+.filter-choice {
+  display: inline-block;
+  margin-right: 40px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 18px;
+  color: #161616;
+  position: relative;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.filter-choice:after {
+  content: '';
+  position: absolute;
+  width: 110%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #64003C;
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.filter-choice:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.filter-dropdown-section {
+  margin: 25px 25px 25px 0px;
+}
+
+.filter-dropdown {
+  padding: 10px;
+  font-family: "Merriweather Sans", sans-serif;
+  margin-right: 20px;
+}
+
+.filter-dropdown-selection {
+  display: inline-block;
+}
+
+.filter-table {
+  width: 100%;
+  border: thin solid black;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.filter-table-tr:first-child {
+  border: thin solid black;
+}
+
+.filter-table-th {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.filter-table-td {
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.filter-table-buy {
+  padding: 10px 30px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,78 @@
+.filter-hp{
+    padding: 80px 100px;
+}
+
+    .filter-choice {
+        display: inline-block;
+        margin-right: 40px;
+        font-family: $font-h3;
+        font-size: 18px;
+        color: $nav-link;
+        position: relative;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+    .filter-choice:after {
+        content: '';
+        position: absolute;
+        width: 110%;
+        transform: scaleX(0);
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background-color: $purple;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      
+      .filter-choice:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+      
+    .filter-dropdown-section{
+      margin: 25px 25px 25px 0px;
+    }    
+      .filter-dropdown{
+        padding: 10px;
+        font-family: $font-h3;
+        margin-right: 20px;
+      }
+      
+        .filter-dropdown-selection{
+          display: inline-block;
+        }
+
+
+
+    .filter-table{
+      width: 100%;
+      border: thin solid black;
+      border-spacing: 0px;
+      border-collapse: collapse;
+    }
+      .filter-table-tr:first-child{
+        border: thin solid black;
+      }
+
+      .filter-table-th{
+        font-family: $font-nav;
+        font-size: 16px;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid black;
+      }
+
+      .filter-table-td{
+        text-align: center;
+        font-family: $font-p;
+        font-size: 18px;
+        padding: 20px;
+        border: 1px solid black;
+      }
+
+      .filter-table-buy{
+        padding: 10px 30px;
+
+      }

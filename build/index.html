@@ -13,7 +13,7 @@
 
 <body>
     <nav>
-        <img src="images/testlogo.svg" class="nav-logo">
+        <img src="images/testlogo.svg" class="nav-logo" alt="Website logotype">
         <ul class="nav-ul">
             <li class="nav-li"><a href="http://" class="nav-link">Home</a></li>
             <li class="nav-li"><a href="http://" class="nav-link">Find Vocals</a></li>
@@ -24,15 +24,87 @@
         <span class="actions user">2</span>
     </nav>
 
-    <div class="hero">
+    <section class="hero">
         <div class="hero-wrapper">
             <h1> Find the right <br>vocals for your <span class="track-color">track</span></h1>
-            <p class="hero-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in pariatur obcaecati quibusdam magnam dolore distinctio ipsam magni harum amet!</p>
+            <p class="hero-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates in pariatur
+                obcaecati quibusdam magnam dolore distinctio ipsam magni harum amet!</p>
             <button class="hero-button">Learn more</button>
         </div>
-        <img src="images/testlogo.svg" class="hero-pic">
-    </div>
-        
+        <img src="images/testlogo.svg" class="hero-pic" alt="Picture of a vocalist">
+    </section>
+
+    <section class="filter-hp">
+        <div class="filter-section">
+            <a class="filter-choice">Non-Exclusive Vocals</a>
+            <a class="filter-choice">Exclusive Vocals</a>
+            
+            <div class="filter-dropdown-section">
+                <select name="bpm" class="filter-dropdown">
+                    <option value="" class="filter-dropdown-selection" disabled selected>BPM</option>
+                    <option value="" class="filter-dropdown-selection">88 bpm</option>
+                    <option value="" class="filter-dropdown-selection">100 bpm</option>
+                </select>
+
+                <select name="bpm" class="filter-dropdown">
+                    <option value="" class="filter-dropdown-selection" disabled selected>KEY</option>
+                    <option value="" class="filter-dropdown-selection">Dmaj</option>
+                    <option value="" class="filter-dropdown-selection">D#maj</option>
+                </select>
+
+                <select name="bpm" class="filter-dropdown">
+                    <option value="" class="filter-dropdown-selection" disabled selected>GENDER</option>
+                    <option value="" class="filter-dropdown-selection">Female</option>
+                    <option value="" class="filter-dropdown-selection">Male</option>
+                </select>
+            </div>
+
+            <table class="filter-table">
+                <tr class="filter-table-tr">
+                    <th class="filter-table-th">Vocalist</th>
+                    <th class="filter-table-th">Listen</th>
+                    <th class="filter-table-th">Bpm</th>
+                    <th class="filter-table-th">Key</th>
+                    <th class="filter-table-th">Gender</th>
+                    <th class="filter-table-th">Price</th>
+                    <th class="filter-table-th">Buy</th>
+                </tr>
+                <tr class="filter-table-tr">
+                    <td class="filter-table-td">USER</td>
+                    <td class="filter-table-td">SONG</td>
+                    <td class="filter-table-td">110BPM</td>
+                    <td class="filter-table-td">Dmaj</td>
+                    <td class="filter-table-td">Male</td>
+                    <td class="filter-table-td">$40</td>
+                    <td class="filter-table-td"><button class="filter-table-buy">Buy</button></td>
+
+                </tr>
+                <tr class="filter-table-tr">
+                    <td class="filter-table-td">USER</td>
+                    <td class="filter-table-td">SONG</td>
+                    <td class="filter-table-td">110BPM</td>
+                    <td class="filter-table-td">Dmaj</td>
+                    <td class="filter-table-td">Female</td>
+                    <td class="filter-table-td">$40</td>
+                    <td class="filter-table-td"><button class="filter-table-buy">Buy</button></td>
+
+                </tr>
+                <tr class="filter-table-tr">
+                    <td class="filter-table-td">USER</td>
+                    <td class="filter-table-td">SONG</td>
+                    <td class="filter-table-td">110BPM</td>
+                    <td class="filter-table-td">Dmaj</td>
+                    <td class="filter-table-td">Female</td>
+                    <td class="filter-table-td">$40</td>
+                    <td class="filter-table-td"><button class="filter-table-buy">Buy</button></td>
+
+                </tr>
+
+            </table>
+
+        </div>
+    </section>
+
 </body>
 
 </html>

@@ -122,6 +122,22 @@ h1 {
   width: 40%;
 }
 
+@media (max-width: 768px) {
+  .hero-pic {
+    display: none;
+  }
+  .hero-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-wrapper {
+    padding: 20px 20px;
+  }
+}
+
 .filter-hp {
   padding: 80px 100px;
 }

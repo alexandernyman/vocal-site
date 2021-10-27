@@ -1,5 +1,5 @@
 .hero{
-    background: #f6f6f6;
+    background: $bg;
     display: flex;
     align-items: center;
 }
@@ -38,7 +38,7 @@
     }
         .hero-button:hover{
             background-color: $purple;
-            color: #f6f6f6;
+            color: $bg;
         }
 
 .hero-pic {
